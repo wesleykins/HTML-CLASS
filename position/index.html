@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+
+    <style>
+        /* .box {
+            width: 200px;
+            height: 200px;
+            background-color: rgba(234, 63, 45, .5);
+            bottom: 200px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 2rem;   
+        }
+
+
+        .box1 {
+            top: 20     px;
+            position: absolute;
+        }
+
+        .box2 {
+            position: relative;
+            z-index: 2;
+            background-color: rgba(234, 234,  45, 0.5);
+         }  */
+
+         /* .box1 {
+            width: 600px;
+            height: 500px;
+            background-color: #000;
+            margin: 0 auto;
+            position: relative; 
+            color: #fff;
+            margin: 1rem;
+         }
+
+         .box2 {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #fff;
+            color: #000;
+            bottom: 20px;
+            left: -20px;
+         } */
+
+         section {
+           min-height: 100vh;
+            background-color: #eee;
+            padding: 5rem;
+            font-style: 1.5rem;
+            margin-bottom: 1rem;
+
+         }
+
+         .floating-btn {
+            font-size: 2rem;
+            padding: 1rem;
+            background-color: #333;
+            width: fit-content;
+            color: #fff;
+            position: fixed;
+            right: 50px;
+            bottom: 50px;
+         }
+         
+
+         .sticky-nav {
+            position: sticky;
+            background-color: darkorange;
+            color: #fff;
+            padding: 1rem;
+            top: 0;
+         }
+    </style>
+</head>
+<body>
+    <!-- Relative -->
+    <!-- <div class="box box1"> -->
+        <!-- BOX1 -->
+
+        <!-- Absolute -->
+        <!-- <div class="box2>" -->
+       <!-- <div class="box box2">
+        BOX2
+      </div> -->
+    <!-- </div> -->
+
+    <!-- Fixed -->
+    <section>
+        <header class="sticky-nav">
+            <h2>First Title</h2>
+        </header>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet impedit dignissimos facere consequuntur? Accusamus, consequatur incidunt nisi ea impedit consequuntur sunt veniam quisquam illum officiis accusantium deleniti, vel facilis itaque repellat id fugit eos cumque nihil? Tenetur itaque atque quia unde voluptatum dolor quo commodi, optio, vel iure soluta repudiandae dicta dolores et odio nihil earum dignissimos, cupiditate aliquam rerum totam esse quaerat perferendis. Officia cupiditate quae nisi exercitationem aliquam aperiam natus corporis assumenda repellat suscipit quis pariatur voluptatem dicta quam doloremque, accusantium dolorem at dolores dolor impedit modi consectetur! Velit ea, corporis distinctio ab consequuntur unde ipsa eveniet, molestiae suscipit aliquid voluptatum commodi maxime alias veritatis blanditiis odio fugiat est repellendus mollitia obcaecati sed. Architecto quisquam suscipit reiciendis, eius corrupti iste at dolorum neque cum esse laborum porro nisi labore hic rerum, voluptatum ea tenetur? Culpa doloremque eveniet odio ut minus, porro nobis pariatur perspiciatis explicabo soluta, consequatur similique molestiae vel aliquam blanditiis possimus sint praesentium. Quibusdam at qui, dolorum tempore accusantium animi unde, possimus, soluta rerum corporis iusto? Reprehenderit aliquid odit sint quas optio ullam, nobis corrupti sunt excepturi quaerat et temporibus ipsa ipsum eius nam animi, mollitia dolore cumque? Omnis ullam molestiae eligendi officia facere architecto neque id unde iure earum, magni a provident in ratione, debitis commodi. Recusandae aut sunt sint qui quidem pariatur, rerum, ipsa optio, assumenda fugiat enim quasi? Repudiandae obcaecati aperiam numquam rem voluptates debitis cupiditate magni, quod dignissimos nesciunt distinctio eligendi tempora. Earum autem quis, cumque dignissimos minus, dolorem recusandae veritatis odit vel voluptatum natus. Nemo facere soluta repellendus, voluptate, inventore, veniam optio expedita accusantium minima sint hic omnis ut! At error adipisci aperiam debitis, libero quis ab ratione, voluptates alias impedit rem natus officia, illo similique quae consectetur sunt saepe tempora totam. Commodi repudiandae a et tempora eaque placeat explicabo dolore obcaecati? Sint aperiam quis cumque, necessitatibus ex unde vero dolor sapiente impedit sed? Mollitia, veritatis atque. Voluptatum doloremque consequuntur pariatur expedita deleniti maiores officia rerum porro omnis sed, est perspiciatis, nisi iusto iure, aperiam impedit neque quod. Sed sequi quibusdam perferendis. Voluptates eaque quidem ea distinctio similique consectetur aperiam illum ipsum reprehenderit, necessitatibus nisi commodi itaque ullam repudiandae dicta libero autem asperiores beatae neque! Debitis odio ullam reiciendis totam sit, quam nulla neque, voluptatibus est accusantium praesentium optio itaque iure assumenda. Est illo modi, voluptates porro culpa quisquam dolor, soluta doloribus nam ab, alias consequatur. Voluptatum laudantium odit accusamus sit.</p>
+    </section>
+    <section>
+        <header class="sticky-nav">
+            <h2>Second Title</h2>
+        </header>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet impedit dignissimos facere consequuntur? Accusamus, consequatur incidunt nisi ea impedit consequuntur sunt veniam quisquam illum officiis accusantium deleniti, vel facilis itaque repellat id fugit eos cumque nihil? Tenetur itaque atque quia unde voluptatum dolor quo commodi, optio, vel iure soluta repudiandae dicta dolores et odio nihil earum dignissimos, cupiditate aliquam rerum totam esse quaerat perferendis. Officia cupiditate quae nisi exercitationem aliquam aperiam natus corporis assumenda repellat suscipit quis pariatur voluptatem dicta quam doloremque, accusantium dolorem at dolores dolor impedit modi consectetur! Velit ea, corporis distinctio ab consequuntur unde ipsa eveniet, molestiae suscipit aliquid voluptatum commodi maxime alias veritatis blanditiis odio fugiat est repellendus mollitia obcaecati sed. Architecto quisquam suscipit reiciendis, eius corrupti iste at dolorum neque cum esse laborum porro nisi labore hic rerum, voluptatum ea tenetur? Culpa doloremque eveniet odio ut minus, porro nobis pariatur perspiciatis explicabo soluta, consequatur similique molestiae vel aliquam blanditiis possimus sint praesentium. Quibusdam at qui, dolorum tempore accusantium animi unde, possimus, soluta rerum corporis iusto? Reprehenderit aliquid odit sint quas optio ullam, nobis corrupti sunt excepturi quaerat et temporibus ipsa ipsum eius nam animi, mollitia dolore cumque? Omnis ullam molestiae eligendi officia facere architecto neque id unde iure earum, magni a provident in ratione, debitis commodi. Recusandae aut sunt sint qui quidem pariatur, rerum, ipsa optio, assumenda fugiat enim quasi? Repudiandae obcaecati aperiam numquam rem voluptates debitis cupiditate magni, quod dignissimos nesciunt distinctio eligendi tempora. Earum autem quis, cumque dignissimos minus, dolorem recusandae veritatis odit vel voluptatum natus. Nemo facere soluta repellendus, voluptate, inventore, veniam optio expedita accusantium minima sint hic omnis ut! At error adipisci aperiam debitis, libero quis ab ratione, voluptates alias impedit rem natus officia, illo similique quae consectetur sunt saepe tempora totam. Commodi repudiandae a et tempora eaque placeat explicabo dolore obcaecati? Sint aperiam quis cumque, necessitatibus ex unde vero dolor sapiente impedit sed? Mollitia, veritatis atque. Voluptatum doloremque consequuntur pariatur expedita deleniti maiores officia rerum porro omnis sed, est perspiciatis, nisi iusto iure, aperiam impedit neque quod. Sed sequi quibusdam perferendis. Voluptates eaque quidem ea distinctio similique consectetur aperiam illum ipsum reprehenderit, necessitatibus nisi commodi itaque ullam repudiandae dicta libero autem asperiores beatae neque! Debitis odio ullam reiciendis totam sit, quam nulla neque, voluptatibus est accusantium praesentium optio itaque iure assumenda. Est illo modi, voluptates porro culpa quisquam dolor, soluta doloribus nam ab, alias consequatur. Voluptatum laudantium odit accusamus sit.</p>
+    </section>
+
+      <div class="floating-btn">
+        &uparrow;
+      </div>
+    </body>
+</html>

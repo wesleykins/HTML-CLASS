@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  min-height: 0;
+}
+
+.container-md {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    text-align: center;
+}
+
+.container-md::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(225,0, 0, .8);
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
